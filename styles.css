@@ -1,0 +1,77 @@
+.grid-container {
+display: grid;
+grid-template-rows: auto auto auto;
+grid-template-columns: auto auto auto;
+}
+
+.header {
+grid-column: 1 / 4; 
+grid-row: 1 / 2;   
+background-color: blanchedalmond;
+padding: 10px;
+}
+
+.sidebar {
+grid-column: 1 / 2; 
+grid-row: 2 / 3;    
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+background-color: bisque;
+padding: 10px;
+}
+
+.main {
+grid-column: 2 / 3;
+grid-row: 2 / 3;    
+background-color: beige;
+padding: 10px;
+}
+
+.footer {
+grid-column: 1 / 4;
+grid-row: 3 / 4;   
+background-color: azure;
+padding: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.skills {
+display: flex;
+flex-direction: column;
+justify-content: left;
+flex-wrap: wrap;
+background-color: azure;
+padding: 10px;
+}
+
+.projects {
+background-color: bisque;
+display: grid;
+grid-template-columns: auto;
+gap: 10px;
+box-shadow: 10px 10px;
+}
+
+.summary {
+background-color: bisque;
+margin: 50px;
+font-size: medium;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.education {
+background-color: beige;
+margin-left: 25px;
+}
+
+.experience {
+background-color: beige;
+margin-left: 25px;
+margin-bottom: 25px;
+}
+
+.contact{
+box-shadow: 10px 10px;
+}
